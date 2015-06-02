@@ -7,4 +7,4 @@ If the uid is 0 or 1000, its process name will be 'system' and shared uid has ma
 
 I have changed toolbox's netstat in Android source code(https://android.googlesource.com/platform/system/core/+/master/toolbox/netstat.c).
 
-UPDATE: The netstat in toolbox was removed in Android. But, new netstat is used in toybox.
+UPDATE: The netstat in toolbox was removed in Android. But, new netstat from toybox is used in Android M.
