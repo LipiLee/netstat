@@ -5,12 +5,13 @@ If the uid is 0 or 1000, its process name will be 'system'
 and shared uid has many process names.
 
 I have changed toolbox's netstat in Android source code
-(~~https://android.googlesource.com/platform/system/core/+/master/toolbox/netstat.c~~).
+(~~https://android.googlesource.com/platform/system/core/+/master/toolbox/netstat.c~~)
+(https://android.googlesource.com/platform/system/core/+/lollipop-release/toolbox/toolbox.c).
 
 UPDATE: The netstat in toolbox was removed in Android 6.0(Marshmallow).
 And new netstat of [toybox](https://github.com/landley/toybox)
-in Android Marshmallow(6.0) is added and needs root priviledge
-to get PID or Process name, *NOT this netstat*.
+in [Android Marshmallow(6.0)](https://android.googlesource.com/platform/external/toybox/)
+is added and needs root priviledge to get PID or Process name, *NOT this netstat*.
 
 ## Example
 ![example](sample.png)
