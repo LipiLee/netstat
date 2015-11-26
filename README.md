@@ -11,7 +11,7 @@ UPDATE: The netstat in toolbox was removed in Android. And new netstat of toybox
 ## Installation
 ```bash
 $> adb push netstat3 /data/local/tmp
-'''
+```
 ## Configuration
 ```bash
 $> adb shell
