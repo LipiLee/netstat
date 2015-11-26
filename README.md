@@ -9,10 +9,13 @@ UPDATE: The netstat in toolbox was removed in Android 6.0(Marshmallow). And new 
 ## Example
 ![example](sample.png)
 ## Installation
+You can use netstat3 binary for ARM CPU.
+And it can be installed to runnable directory in Android device.
 ```bash
 $> adb push netstat3 /data/local/tmp
 ```
 ## Configuration
+It should be executable using chmod command.
 ```bash
 $> adb shell
 shell@xxx:/ $ chmod 755 /data/local/tmp/netstat3
