@@ -18,6 +18,7 @@ $> adb shell
 shell@xxx:/ $ chmod 755 /data/local/tmp/netstat3
 ```
 ## Run
+This netstat don't need the root priviledges to run.
 ```bash
 shell@xxx:/ $ /data/local/tmp/netstat3
 ```
