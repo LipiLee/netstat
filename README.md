@@ -35,4 +35,5 @@ This netstat don't need the root priviledge to run.
 ```bash
 shell@xxx:/ $ /data/local/tmp/netstat3
 ```
-Thanks for [Brann](http://www.androidpub.com/2708895)'s use.
+## Thanks
+Thanks for [Brann](http://www.androidpub.com/2708895)'s tip in Korean language.
