@@ -6,7 +6,7 @@ and shared uid has many process names.
 
 I have changed toolbox's netstat in Android source code
 (~~https://android.googlesource.com/platform/system/core/+/master/toolbox/netstat.c~~)
-(https://android.googlesource.com/platform/system/core/+/lollipop-release/toolbox/toolbox.c).
+(https://android.googlesource.com/platform/system/core/+/lollipop-release/toolbox/netstat.c).
 
 UPDATE: The netstat in toolbox was removed in Android 6.0(Marshmallow).
 And new netstat of [toybox](https://github.com/landley/toybox)
@@ -37,4 +37,4 @@ This netstat don't need the root priviledge to run.
 shell@xxx:/ $ /data/local/tmp/netstat3
 ```
 ## Thanks
-Thanks for [Brann](http://www.androidpub.com/2708895)'s tip in Korean language.
+Thanks for [Brann](http://www.androidpub.com/2708895)'s useful tip in Korean language.
